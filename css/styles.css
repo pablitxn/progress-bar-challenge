@@ -1,0 +1,65 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(91, 203, 76, 1) 74%,
+    rgba(252, 70, 107, 0.3785889355742297) 100%
+  );
+  font-family: 'Kiwi Maru', serif;
+}
+
+.container {
+  padding-top: 4rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  padding: 2rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.progress-bar__square {
+  background-color: white;
+  border: 3px solid black;
+  padding: 1rem;
+}
+
+.filled {
+  background-color: chartreuse;
+}
+.filled-yellow {
+  background-color: yellow;
+}
+.filled-orange {
+  background-color: tomato;
+}
+.filled-red {
+  background-color: rgb(201, 73, 99);
+}
+.filled-finish {
+  background-color: red;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
