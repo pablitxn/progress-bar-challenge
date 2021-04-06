@@ -1,0 +1,27 @@
+{
+  "name": "progress-bar-challenge",
+  "version": "1.0.0",
+  "description": "a javascript challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablitxn/progress-bar-challenge.git"
+  },
+  "keywords": [
+    "challenge",
+    "javascript"
+  ],
+  "author": "@pablitxn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablitxn/progress-bar-challenge/issues"
+  },
+  "homepage": "https://github.com/pablitxn/progress-bar-challenge#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
