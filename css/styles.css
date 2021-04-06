@@ -12,33 +12,6 @@ html {
   font-family: 'Kiwi Maru', serif;
 }
 
-.filled {
-  background-color: chartreuse;
-}
-.filled-yellow {
-  background-color: yellow;
-}
-.filled-orange {
-  background-color: tomato;
-}
-.filled-red {
-  background-color: rgb(201, 73, 99);
-}
-.filled-finish {
-  background-color: red;
-}
-
-.main {
-  padding: 2rem;
-}
-
-.header h1 {
-  font-size: 3rem;
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: center;
-}
-
 @media screen and (max-width: 480px) {
   .container {
     padding-top: 1rem;
@@ -69,6 +42,32 @@ html {
 
   .options button {
     padding: 1rem 2rem;
+  }
+  .filled {
+    background-color: chartreuse;
+  }
+  .filled-yellow {
+    background-color: yellow;
+  }
+  .filled-orange {
+    background-color: tomato;
+  }
+  .filled-red {
+    background-color: rgb(201, 73, 99);
+  }
+  .filled-finish {
+    background-color: red;
+  }
+
+  .main {
+    padding: 2rem;
+  }
+
+  .header h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-align: center;
   }
 }
 
@@ -101,6 +100,32 @@ html {
 
   .options button {
     padding: 1rem 2rem;
+  }
+  .filled {
+    background-color: chartreuse;
+  }
+  .filled-yellow {
+    background-color: yellow;
+  }
+  .filled-orange {
+    background-color: tomato;
+  }
+  .filled-red {
+    background-color: rgb(201, 73, 99);
+  }
+  .filled-finish {
+    background-color: red;
+  }
+
+  .main {
+    padding: 2rem;
+  }
+
+  .header h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-align: center;
   }
 }
 
@@ -135,6 +160,32 @@ html {
     padding: 1rem 2rem;
     font-size: 1.3rem;
   }
+  .filled {
+    background-color: chartreuse;
+  }
+  .filled-yellow {
+    background-color: yellow;
+  }
+  .filled-orange {
+    background-color: tomato;
+  }
+  .filled-red {
+    background-color: rgb(201, 73, 99);
+  }
+  .filled-finish {
+    background-color: red;
+  }
+
+  .main {
+    padding: 2rem;
+  }
+
+  .header h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -167,5 +218,31 @@ html {
   .options button {
     padding: 1rem 2rem;
     font-size: 1.3rem;
+  }
+  .filled {
+    background-color: chartreuse;
+  }
+  .filled-yellow {
+    background-color: yellow;
+  }
+  .filled-orange {
+    background-color: tomato;
+  }
+  .filled-red {
+    background-color: rgb(201, 73, 99);
+  }
+  .filled-finish {
+    background-color: red;
+  }
+
+  .main {
+    padding: 2rem;
+  }
+
+  .header h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-align: center;
   }
 }
