@@ -30,6 +30,7 @@ const addPercentage = () => percentage++
 const resetPercentage = () => (percentage = 1)
 
 function changeColor(pct) {
+  console.log(pct)
   percentage++
   switch (pct) {
     case 'pct1':
