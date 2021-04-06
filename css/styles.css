@@ -28,23 +28,23 @@ html {
   background-color: red;
 }
 
+.main {
+  padding: 2rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: center;
+}
+
 @media screen and (max-width: 480px) {
   .container {
     padding-top: 1rem;
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
-
-  .main {
-    padding: 2rem;
-  }
-
-  .header h1 {
-    font-size: 3rem;
-    font-weight: 500;
-    margin-bottom: 0;
-    text-align: center;
   }
 
   .progress-bar {
@@ -80,17 +80,6 @@ html {
     flex-direction: column;
   }
 
-  .main {
-    padding: 2rem;
-  }
-
-  .header h1 {
-    font-size: 3rem;
-    font-weight: 500;
-    margin-bottom: 0;
-    text-align: center;
-  }
-
   .progress-bar {
     display: flex;
     flex-direction: row;
@@ -121,17 +110,6 @@ html {
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
-
-  .main {
-    padding: 2rem;
-  }
-
-  .header h1 {
-    font-size: 3rem;
-    font-weight: 500;
-    margin-bottom: 0;
-    text-align: center;
   }
 
   .progress-bar {
@@ -167,16 +145,6 @@ html {
     flex-direction: column;
   }
 
-  .main {
-    padding: 2rem;
-  }
-
-  .header h1 {
-    font-size: 3rem;
-    font-weight: 500;
-    margin-bottom: 0;
-  }
-
   .progress-bar {
     display: flex;
     flex-direction: row;
@@ -188,22 +156,6 @@ html {
     background-color: white;
     border: 3px solid black;
     padding: 1rem;
-  }
-
-  .filled {
-    background-color: chartreuse;
-  }
-  .filled-yellow {
-    background-color: yellow;
-  }
-  .filled-orange {
-    background-color: tomato;
-  }
-  .filled-red {
-    background-color: rgb(201, 73, 99);
-  }
-  .filled-finish {
-    background-color: red;
   }
 
   .options {
