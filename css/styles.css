@@ -12,36 +12,6 @@ html {
   font-family: 'Kiwi Maru', serif;
 }
 
-.container {
-  padding-top: 4rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.main {
-  padding: 2rem;
-}
-
-.header h1 {
-  font-size: 3rem;
-  font-weight: 500;
-  margin-bottom: 0;
-}
-
-.progress-bar {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-.progress-bar__square {
-  background-color: white;
-  border: 3px solid black;
-  padding: 1rem;
-}
-
 .filled {
   background-color: chartreuse;
 }
@@ -58,8 +28,144 @@ html {
   background-color: red;
 }
 
-.options {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+.main {
+  padding: 2rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .progress-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 3px;
+  }
+
+  .progress-bar__square {
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px;
+  }
+
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .options button {
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .container {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .progress-bar {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+  }
+
+  .progress-bar__square {
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px;
+  }
+
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .options button {
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .progress-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 2rem;
+  }
+
+  .progress-bar__square {
+    background-color: white;
+    border: 3px solid black;
+    padding: 1rem;
+  }
+
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .options button {
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding-top: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .progress-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .progress-bar__square {
+    background-color: white;
+    border: 3px solid black;
+    padding: 1rem;
+  }
+
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .options button {
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+  }
 }
