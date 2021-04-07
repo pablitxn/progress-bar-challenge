@@ -24,13 +24,11 @@ stopButton.addEventListener('click', stopProgressBar)
 resetButton.addEventListener('click', resetProgressBar)
 
 let percentage = 1
-let intervalID
 
 const addPercentage = () => percentage++
 const resetPercentage = () => (percentage = 1)
 
 function changeColor(pct) {
-  console.log(pct)
   percentage++
   switch (pct) {
     case 'pct1':

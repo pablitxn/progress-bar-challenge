@@ -28,7 +28,7 @@ html {
     gap: 3px;
   }
 
-  .progress-bar__square {
+  .bar-square {
     background-color: white;
     border: 2px solid black;
     padding: 8px;
@@ -86,7 +86,7 @@ html {
     justify-content: space-between;
   }
 
-  .progress-bar__square {
+  .bar-square {
     background-color: white;
     border: 2px solid black;
     padding: 5px;
@@ -144,7 +144,7 @@ html {
     margin-bottom: 2rem;
   }
 
-  .progress-bar__square {
+  .bar-square {
     background-color: white;
     border: 3px solid black;
     padding: 1rem;
@@ -203,7 +203,7 @@ html {
     margin-bottom: 2rem;
   }
 
-  .progress-bar__square {
+  .bar-square {
     background-color: white;
     border: 3px solid black;
     padding: 1rem;
