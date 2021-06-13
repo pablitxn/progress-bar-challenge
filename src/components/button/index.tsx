@@ -2,7 +2,7 @@ import React, { MouseEvent, FC } from "react";
 import { IButton } from "./types";
 import "./styles.scss";
 
-const Button: FC<IButton> = ({ child, onClick }) => {
+const Button: FC<IButton> = ({ children, onClick }) => {
 	const handleClick = (event: MouseEvent) => {
 		event.preventDefault();
 		onClick();
@@ -10,7 +10,7 @@ const Button: FC<IButton> = ({ child, onClick }) => {
 
 	return (
 		<button className="button" onClick={handleClick}>
-			{child}
+			{children}
 		</button>
 	);
 };

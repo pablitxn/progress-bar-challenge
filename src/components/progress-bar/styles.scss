@@ -33,24 +33,46 @@
 	background-color: red;
 }
 
-@include media-screen("mobile") {
+@include media-screen("mobile-vertical") {
 	.progress-bar {
-		// margin-bottom: 2rem;
-		// gap: 3px;
+		margin: 1rem 0;
+		gap: 12px;
 		&__square {
-			// border: 2px solid black;
-			// padding: 8px;
+			border: 2px solid black;
+			padding: 9px;
 		}
 	}
 }
 
-@include media-screen("tablet") {
+@include media-screen("mobile-horizontal") {
 	.progress-bar {
-		// margin-bottom: 2rem;
-		// gap: 3px;
+		margin: 1rem 0;
+		gap: 1rem;
 		&__square {
-			// border: 2px solid black;
-			// padding: 8px;
+			border: 2px solid black;
+			padding: 0.8rem;
+		}
+	}
+}
+
+@include media-screen("tablet-vertical") {
+	.progress-bar {
+		margin: 1rem 0;
+		gap: 1rem;
+		&__square {
+			border: 3px solid black;
+			padding: 1.5rem;
+		}
+	}
+}
+
+@include media-screen("tablet-horizontal") {
+	.progress-bar {
+		margin: 2rem 0;
+		gap: 1.3rem;
+		&__square {
+			border: 4px solid black;
+			padding: 2rem;
 		}
 	}
 }
