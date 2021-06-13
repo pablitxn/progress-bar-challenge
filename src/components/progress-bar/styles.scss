@@ -1,0 +1,67 @@
+@import "../../utils/sass/main.scss";
+
+.progress-bar {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	margin-bottom: 2rem;
+
+	&__square {
+		background-color: white;
+		border: 3px solid black;
+		padding: 1rem;
+	}
+}
+
+.filled {
+	background-color: chartreuse;
+}
+
+.filled-yellow {
+	background-color: yellow;
+}
+
+.filled-orange {
+	background-color: tomato;
+}
+
+.filled-red {
+	background-color: rgb(201, 73, 99);
+}
+
+.filled-finish {
+	background-color: red;
+}
+
+@include media-screen("mobile") {
+	.progress-bar {
+		// margin-bottom: 2rem;
+		// gap: 3px;
+		&__square {
+			// border: 2px solid black;
+			// padding: 8px;
+		}
+	}
+}
+
+@include media-screen("tablet") {
+	.progress-bar {
+		// margin-bottom: 2rem;
+		// gap: 3px;
+		&__square {
+			// border: 2px solid black;
+			// padding: 8px;
+		}
+	}
+}
+
+@include media-screen("desktop") {
+	.progress-bar {
+		// margin-bottom: 2rem;
+		// gap: 3px;
+		&__square {
+			// border: 2px solid black;
+			// padding: 8px;
+		}
+	}
+}
