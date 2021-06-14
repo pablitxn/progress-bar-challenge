@@ -1,12 +1,8 @@
+@import "./sass/main.scss";
+
 body,
 html {
 	margin: 0;
 	height: 100%;
-	background: rgb(63, 94, 251);
-	background: linear-gradient(
-		90deg,
-		rgba(63, 94, 251, 1) 0%,
-		rgba(91, 203, 76, 1) 74%,
-		rgba(252, 70, 107, 0.3785889355742297) 100%
-	);
+	background: $gradient-home;
 }

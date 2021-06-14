@@ -1,14 +1,21 @@
 import React, { FC } from "react";
+import { IProgressBar } from "./types";
+import { handleBarStyles } from "../../utils/progress-bar";
 import "./styles.scss";
 
-const ProgressBar: FC = () => {
-	const test = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
+const ProgressBar: FC<IProgressBar> = ({ barProperties }) => {
 	return (
 		<div className="progress-bar">
-			{test.map((_, i) => (
-				<div className={`progress-bar__square progress-bar__square--${i} `} />
-			))}
+			{barProperties.map((step, index) => {
+				const { percentage, isFilled } = step;
+				const fillClassName = handleBarStyles(percentage, index, isFilled);
+				return (
+					<div
+						key={`step_${index}`}
+						className={`progress-bar__step ${fillClassName}`}
+					/>
+				);
+			})}
 		</div>
 	);
 };
