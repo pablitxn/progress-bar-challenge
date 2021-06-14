@@ -1,0 +1,30 @@
+///	Use Media Queries inserting a text
+/// @param {string} $size - "mobile" | "tablet" | "desktop"
+
+@mixin media-screen($size) {
+	@if $size == "mobile-vertical" {
+		@media screen and (min-width: $mobile-vertical) and (max-width: $mobile-horizontal) {
+			@content;
+		}
+	}
+	@if $size == "mobile-horizontal" {
+		@media screen and (min-width: $mobile-horizontal) and (max-width: $tablet-vertical) {
+			@content;
+		}
+	}
+	@if $size == "tablet-vertical" {
+		@media screen and (min-width: $tablet-vertical) and (max-width: $tablet-horizontal) {
+			@content;
+		}
+	}
+	@if $size == "tablet-horizontal" {
+		@media screen and (min-width: $tablet-horizontal) and (max-width: $desktop) {
+			@content;
+		}
+	}
+	@if $size == "desktop" {
+		@media screen and (min-width: $desktop) {
+			@content;
+		}
+	}
+}
