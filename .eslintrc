@@ -1,30 +1,4 @@
 {
-	"env": {
-		"react": true,
-		"es2020": true
-	},
-	"extends": [
-		"eslint:recommended",
-		"plugin:import/errors",
-		"plugin:import/warnings",
-		"prettier"
-	],
-	"parser": "babel-eslint",
-	"parserOptions": {
-		"sourceType": "module",
-		"ecmaVersion": 2020,
-		"ecmaFeatures": {
-			"modules": true
-		}
-	},
-	"rules": {
-		"no-undef": 2,
-		"no-var": 2,
-		"no-const-assign": 2,
-		"no-unused-vars": 2,
-		"prefer-const": 2,
-		"no-case-declarations": "off"
-	},
 	// Source: https://github.com/yannickcr/eslint-plugin-react#recommended
 	"settings": {
 		"react": {
@@ -57,5 +31,31 @@
 			{ "name": "Link", "linkAttribute": "to" }
 		]
 	},
-	"plugins": ["react"]
+	"plugins": ["react"],
+		"env": {
+		"node": true,
+		"es2020": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:import/errors",
+		"plugin:import/warnings",
+		"prettier"
+	],
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaVersion": 2020,
+		"ecmaFeatures": {
+			"modules": true
+		}
+	},
+	"rules": {
+		"no-undef": 2,
+		"no-var": 2,
+		"no-const-assign": 2,
+		"no-unused-vars": 2,
+		"prefer-const": 2,
+		"no-case-declarations": "off"
+	}
 }
