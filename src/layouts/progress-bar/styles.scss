@@ -1,0 +1,83 @@
+@import "../../sass/main.scss";
+
+.progress-bar-layout {
+	font-family: "Kiwi Maru", serif;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	&__header {
+		margin-bottom: 0;
+		text-align: center;
+		font-weight: 500;
+	}
+	&__options {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+@include media-screen("mobile-vertical") {
+	.progress-bar-layout {
+		padding-top: 1rem;
+		gap: 0.5rem;
+		&__header {
+			font-size: 2rem;
+		}
+		&__options {
+			gap: 0.5rem;
+		}
+	}
+}
+
+@include media-screen("mobile-horizontal") {
+	.progress-bar-layout {
+		padding-top: 2rem;
+		gap: 1rem;
+		&__header {
+			font-size: 2.5rem;
+		}
+		&__options {
+			gap: 1rem;
+		}
+	}
+}
+
+@include media-screen("tablet-vertical") {
+	.progress-bar-layout {
+		padding-top: 2rem;
+		gap: 2rem;
+		&__header {
+			font-size: 4rem;
+		}
+		&__options {
+			gap: 1rem;
+		}
+	}
+}
+
+@include media-screen("tablet-horizontal") {
+	.progress-bar-layout {
+		padding-top: 2rem;
+		gap: 2rem;
+		&__header {
+			font-size: 6rem;
+		}
+		&__options {
+			gap: 1rem;
+		}
+	}
+}
+
+@include media-screen("desktop") {
+	.progress-bar-layout {
+		padding-top: 2rem;
+		gap: 1rem;
+		&__header {
+			font-size: 3rem;
+			font-weight: 500;
+		}
+		&__options {
+			gap: 1rem;
+		}
+	}
+}
